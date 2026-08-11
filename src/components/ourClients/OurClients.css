@@ -1,0 +1,47 @@
+.our_clients {
+  width: 100%;
+  height: 517px;
+  background-color: #1773ba;
+}
+
+.our_clients_container {
+  max-width: 1000px;
+  height: 215px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+  padding: 152px 0;
+}
+
+.our_clients_container h2 {
+  font-size: 27px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.lightning {
+  /* transform: translateX(-17px) translateY(4px); */
+  position: relative;
+  top: 4px;
+  right: 19px;
+}
+
+.clients_imgs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.clients_imgs img {
+  cursor: no-drop;
+}
+
+.clients_imgs img:hover {
+  transform: scale(1.05);
+}
+
+.clients_imgs img:active {
+  transform: scale(1);
+}

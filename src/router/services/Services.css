@@ -1,0 +1,122 @@
+.services {
+  width: 100%;
+  height: 2292px;
+  background-color: #1773ba;
+  padding: 150px 0;
+}
+
+.services_container {
+  max-width: 1000px;
+  height: 1992px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.services_container h2 {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.industry {
+  width: 100%;
+  height: 696px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px 43px 40px 66px;
+}
+
+.industry_competence {
+  width: 476px;
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.industry_competence h3,
+.expertise_in_IT h3 {
+  width: 354px;
+  height: 58px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #363636;
+}
+
+.industry_competence_info {
+  width: 476px;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.expertise_in_IT_info {
+  width: 401px;
+  height: 455px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.management_competence {
+  width: 456px;
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.management_competence_info {
+  width: 455px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.industry_competence_info input,
+.expertise_in_IT_info input,
+.management_competence_info input {
+  content: "";
+  margin-right: 6.35px;
+}
+
+.industry_competence_info span,
+.expertise_in_IT_info span,
+.management_competence_info span {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 140%;
+  color: #363636;
+}
+
+.expertise {
+  width: 100%;
+  height: 599px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px 43px 40px 66px;
+}
+
+.management {
+  width: 100%;
+  height: 417px;
+  background-color: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px 43px 40px 66px;
+}
