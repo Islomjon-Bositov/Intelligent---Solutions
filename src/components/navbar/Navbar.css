@@ -57,3 +57,23 @@
 .contact_us_link:hover {
   background-color: #1773ba25;
 }
+
+@media (max-width: 768px) {
+  .header_container {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    /* justify-content: space-between; */
+  }
+
+  .navigation nav,
+  .navigation select {
+    display: none;
+  }
+
+  .contact_us_link {
+    padding: 10px 15px;
+  }
+}

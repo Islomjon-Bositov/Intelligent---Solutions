@@ -115,3 +115,29 @@
 .form_box_request_desc a:hover {
   text-decoration: underline;
 }
+
+@media(max-width: 768px){
+  .your_project_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+  }
+
+  .form_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  .form_box_results {
+    width: 100%;
+  }
+
+  .form_box_request {
+    width: 100%;
+  }
+}

@@ -9,3 +9,10 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+@media(max-width: 768px){
+  .footer {
+    width: 100%;
+    padding: 10px 15px;
+  }
+}

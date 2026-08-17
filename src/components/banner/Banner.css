@@ -55,3 +55,19 @@
   right: 0;
   bottom: 0;
 }
+
+@media(max-width: 768px){
+  .banner_container {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+  }
+
+  .trust_us {
+    width: 100%;
+  }
+
+  .banner_container img {
+    display: none;
+  }
+}

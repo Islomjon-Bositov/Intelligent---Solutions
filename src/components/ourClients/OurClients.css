@@ -45,3 +45,19 @@
 .clients_imgs img:active {
   transform: scale(1);
 }
+
+@media(max-width: 768px){
+  .our_clients_container {
+    width: 100%;
+    height: auto;
+    padding: 60px 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .clients_imgs {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}

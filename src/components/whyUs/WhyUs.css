@@ -1,6 +1,7 @@
 .why_us {
   width: 100%;
-  height: 1142px;
+  /* height: 1142px; */
+  height: auto;
   background-color: #1773BA;
 }
 
@@ -8,7 +9,8 @@
   max-width: 1000px;
   height: 100%;
   margin: auto;
-  padding-top: 150px;
+  /* padding-top: 150px; */
+  padding: 150px;
 }
 
 .why_us_title {
@@ -57,4 +59,27 @@
 
 .why_us_box_desc p {
   text-align: center;
+}
+
+@media(max-width: 768px){
+  .our_clients {
+    height: auto;
+  }
+
+  .why_us_container {
+    width: 100%;
+    padding: 60px 15px;
+  }
+
+  .why_us_box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .why_us_box_desc {
+    text-align: center;
+  }
 }
