@@ -129,6 +129,11 @@
   background-color: #1773ba;
   font-size: 16px;
   font-weight: 500;
+  cursor: pointer;
+}
+
+.customer_requirements button:active {
+  background-color: #0f4a77;
 }
 
 .digital_conveyor {

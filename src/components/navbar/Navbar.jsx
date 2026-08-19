@@ -25,7 +25,7 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
-          <select   name="language">
+          <select name="language">
             <option value="eng">Eng</option>
             <option value="ru">Ru</option>
           </select>

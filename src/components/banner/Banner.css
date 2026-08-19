@@ -43,12 +43,17 @@
   border-radius: 4px;
   padding: 20px 66px;
   border: none;
-  cursor: no-drop;
+  /* cursor: no-drop; */
+  cursor: pointer;
+
 }
 
-.trust_us button:hover {
+.trust_us button:active {
   background-color: #0f4a77;
 }
+/* .trust_us button:hover {
+  background-color: #0f4a77;
+} */
 
 .banner_container img {
   position: absolute;
@@ -56,7 +61,55 @@
   bottom: 0;
 }
 
+body.active-modal {
+  overflow: hidden;
+}
+
+.modal {
+  background-color: rgba(49,49,49,0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.35s ease;
+}
+
+.modal_wrapper {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  color: #363636;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.modal_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal_head button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+
 @media(max-width: 768px){
+
+  .modal {
+    width: 100%;
+    padding: 0 15px;
+  }
+
   .banner_container {
     width: 100%;
     padding: 0 15px;

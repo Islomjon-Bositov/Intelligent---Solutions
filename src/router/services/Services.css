@@ -119,4 +119,5 @@
   align-items: flex-start;
   justify-content: space-between;
   padding: 40px 43px 40px 66px;
+  border-radius: 10px;
 }

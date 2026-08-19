@@ -46,6 +46,13 @@
   transform: scale(1);
 }
 
+@media(max-width: 1024px){
+  .clients_imgs {
+    width: 100%;
+    
+  }
+}
+
 @media(max-width: 768px){
   .our_clients_container {
     width: 100%;

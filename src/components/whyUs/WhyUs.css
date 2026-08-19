@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 1142px;
   height: auto;
-  background-color: #1773BA;
+  background-color: #1773ba;
 }
 
 .why_us_container {
@@ -10,18 +10,19 @@
   height: 100%;
   margin: auto;
   padding: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
 .why_us_title {
   text-align: center;
-  margin-bottom: 80px;
   font-size: 27px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .why_us_boxes {
-  /* width: 100%; */
   display: flex;
   flex-wrap: wrap;
   gap: 28px;
@@ -30,7 +31,7 @@
 .why_us_box {
   width: 485.5057373046875px;
   height: 336px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -43,6 +44,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 11px;
 }
 
@@ -61,7 +63,28 @@
   text-align: center;
 }
 
-@media(max-width: 768px){
+@media (max-width: 1024px) {
+  .why_us_boxes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .why_us_box {
+    width: 48%;
+    overflow: hidden;
+  }
+
+  .why_us_box_desc {
+    width: 250px;
+
+  }
+}
+
+@media (max-width: 768px) {
   .our_clients {
     height: auto;
   }
@@ -72,6 +95,7 @@
   }
 
   .why_us_box {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
