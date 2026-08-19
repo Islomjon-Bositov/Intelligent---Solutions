@@ -4,10 +4,11 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addUser } from "../../redux/userSlice";
 import { useSelector } from "react-redux";
+import { useTranslation } from "react-i18next";
 
 const YourProject = () => {
+  const { t, i18n } = useTranslation();
   const user = useSelector((item) => item.user.value);
-
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -28,19 +29,23 @@ const YourProject = () => {
   return (
     <div className="your_project">
       <section className="your_project_container">
-        <h2>We're ready to discuss your project</h2>
-        <p className="your_project_desc">
-          Leave your request for a consultation and get an answer soon{" "}
-        </p>
+        <h2>{t("yourProject.title")}</h2>
+        <p className="your_project_desc">{t("yourProject.desc")}</p>
 
         <div className="form_box">
           <div className="form_box_results">
             {user.map((item) => {
               return (
                 <div>
-                  <p>Name: {item.name}</p>
-                  <p>Phone: {item.number}</p>
-                  <p>E-mail: {item.email}</p>
+                  <p>
+                    {t("yourProject.form.name")} {item.name}
+                  </p>
+                  <p>
+                    {t("yourProject.form.phone")} {item.number}
+                  </p>
+                  <p>
+                    {t("yourProject.form.email")} {item.email}
+                  </p>
                 </div>
               );
             })}
@@ -48,33 +53,35 @@ const YourProject = () => {
 
           <form onSubmit={handleSubmit} className="form_box_request">
             <label>
-              Name *
+              {t("yourProject.formIn.name")}
               <input
                 onChange={(n) => setName(n.target.value)}
                 type="text"
                 placeholder="Enter your name"
+                required
               />
             </label>
             <label>
-              Phone number *
+              {t("yourProject.formIn.phone")}
               <input
                 onChange={(n) => setNumber(n.target.value)}
                 type="tel"
                 placeholder="Enter your phone number"
+                required
               />
             </label>
             <label>
-              E-mail *
+              {t("yourProject.formIn.email")}
               <input
                 onChange={(n) => setEmail(n.target.value)}
                 type="email"
                 placeholder="Enter your e-mail"
+                required
               />
             </label>
-            <button>Send</button>
+            <button>{t("yourProject.formIn.btn")}</button>
             <p className="form_box_request_desc">
-              By clicking the button, you automatically agree to{" "}
-              <Link to={`/`}>Privacy Policy</Link>
+              {t('yourProject.formIn.desc')}
             </p>
           </form>
         </div>

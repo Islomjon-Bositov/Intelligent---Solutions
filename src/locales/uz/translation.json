@@ -1,0 +1,162 @@
+{
+  "notFound": {
+    "title": "Topilmadi",
+    "desc": "Iltimos, qayta urinib ko'ring."
+  },
+  "navbar": {
+    "about": "Biz haqimizda",
+    "services": "Xizmatlar",
+    "cases": "Keyslar",
+    "contactUs": "Biz bilan bog'lanish"
+  },
+  "banner": {
+    "topTitle": "Professional IT-mahsulotlar va xizmatlar",
+    "title": "Bizga ishoning va biznes-jarayonlarga sarflanadigan xarajatlaringizni kamaytiring",
+    "downTitle": "Biz IT-tizimlarni joriy etamiz va ishlab chiqarishda qo'shimcha samaraga erishishga yordam beramiz",
+    "bannerBtn": "Loyihani muhokama qilish",
+    "modal": {
+      "title": "Tinchlikmi!"
+    }
+  },
+  "whyUs": {
+    "title": "Nega biz?",
+    "flexible": {
+      "title": "Moslashuvchan yondashuv",
+      "desc": "Biz ishni shunchaki brif bo'yicha rasmiy bajarishga emas, mijozning ehtiyojlariga moslashib, uning joriy muammolarini hal qilishga intilamiz"
+    },
+    "team": {
+      "title": "Professionallar jamoasi",
+      "desc": "Loyiha boshqaruvi, qo'llab-quvvatlash va turli sohalardagi ekspertiza yo'nalishlarida"
+    },
+    "bigProject": {
+      "title": "Yirik loyihalar tajribasi",
+      "desc": "Turli soha va tarmoqlarda 50 dan ortiq yirik loyihalar amalga oshirilgan"
+    },
+    "latest": {
+      "title": "Eng so'nggi texnologiyalar",
+      "desc": "Mahsulotni ishlab chiqish vaqtini qisqartirish uchun zamonaviy Industry 4.0 texnologiyalari va yangi platformalardan foydalanamiz"
+    }
+  },
+  "ourWork": {
+    "title": "Ishlarimizdan namunalar",
+    "mobile": {
+      "title": "Mobil ilova",
+      "link": "Keysni ko'rish"
+    },
+    "digital": {
+      "title": "Raqamli konveyer",
+      "link": "Keysni ko'rish"
+    },
+    "exoskeletons": {
+      "title": "Ekzoskeletlar",
+      "link": "Keysni ko'rish"
+    }
+  },
+  "outClient": "Bizning mijozlarimiz",
+  "yourProject": {
+    "title": "Loyihangizni muhokama qilishga tayyormiz",
+    "desc": "Konsultatsiya uchun so'rov qoldiring va tez orada javob oling",
+    "form": {
+      "name": "Ism:",
+      "phone": "Telefon:",
+      "email": "Email:"
+    },
+    "formIn": {
+      "name": "Ism *",
+      "phone": "Telefon raqami *",
+      "email": "E-mail *",
+      "btn": "Yuborish",
+      "desc": "Tugmani bosish orqali siz avtomatik ravishda Maxfiylik siyosatiga rozilik bildirasiz"
+    }
+  },
+  "footer": {
+    "title": "© 2021. Barcha huquqlar himoyalangan"
+  },
+
+  "services": {
+    "title": "Bizning jamoamiz turli sohalarda yuqori malakaga ega",
+    "industry": {
+      "title": "Biznes-jarayonlarda tarmoq kompetensiyasi va ekspertizasi",
+      "controlling": "Kontrolling (Nazorat)",
+      "treasury": "G'aznachilik",
+      "document": "Hujjatlar aylanmasi",
+      "mining": "Kon-metallurgiya sanoati",
+      "audit": "Auditni boshqarish",
+      "accounting": "Buxgalteriya va soliq hisobi",
+      "retail": "Chakana savdo va elektron tijorat",
+      "oil": "Neft qazib olish va qayta ishlash",
+      "procurement": "Xaridlar va zaxiralarni boshqarish",
+      "sales": "Savdo va mijozlar bilan aloqalar",
+      "repair": "Ta'mirlash va ishlab chiqarishni boshqarish",
+      "risk": "Xatarlarni boshqarish va nazorat tartib-taomillari"
+    },
+    "expertise": {
+      "title": "IT-texnologiyalar bo'yicha ekspertiza",
+      "vr": "VR / AR",
+      "chat": "Chat-botlar",
+      "machine": "Mashinali ko'rish",
+      "autonomous": "Avtonom dronlar",
+      "digital": "Raqamli egzaklar (Digital twins)",
+      "mobile": "Mobil yechimlar",
+      "pra": "RPA dasturiy robotlari",
+      "dashboards": "Dashbordlar va hisobot tizimlari",
+      "exoskeletons": "Ekzoskeletlar va sanoat robotlari",
+      "systems": "Uskunalarning ishlash rejimlarini optimallashtirish va prognozli ta'mirlash tizimlari"
+    },
+    "management": {
+      "title": "Boshqaruv kompetensiyalari",
+      "it": "IT funksiyasini qayta tashkil etish",
+      "digital": "Raqamli dasturlar va yechimlar yaratish",
+      "launch": "IT dastur va loyihalarini ishga tushirish hamda boshqarish"
+    }
+  },
+
+  "application": {
+    "title": "Mobil ilova",
+    "topTitle": "Mijozning talablari",
+    "prompt": "Menejerlarning ishlab chiqarish haqidagi ma'lumotlarga tezkor kirishi",
+    "application": "Menejerlarni unda ishlashga undaydigan (motivatsiya beradigan) ilova",
+    "intuitive": "Tushunarli va qulay (intuitiv) interfeys",
+    "midTitle": "Bizning yechimimiz",
+    "mobileApp": "Ishlab chiqarish rahbarlari uchun mobil ilova",
+    "downTitle": "Joriy etilgandan keyingi natija",
+    "access": "Zavodning istalgan joyidan ishlab chiqarish ma'lumotlariga kirish imkoniyati",
+    "reducing": "Ma'lumot qidirish va tahlil qilishga ketadigan vaqtni qisqartirish",
+    "decision": "Qaror qabul qilish samaradorligi",
+    "btn": "Loyiha taqdimoti"
+  },
+
+  "digital": {
+    "title": "Raqamli konveyer",
+    "topTitle": "Mijozning talablari",
+    "prompt": "Konveyerni ta'mirlash xarajatlarini kamaytirish",
+    "application": "Ruda miqdori va namligini aniqlash",
+    "intuitive": "Konveyer lentasidagi kesilishlarni vaqtida aniqlash",
+    "midTitle": "Bizning yechimimiz",
+    "mobileApp": "Ishlab chiqarish rahbarlari uchun mobil ilova",
+    "downTitle": "Joriy etilgandan keyingi natija",
+    "access": "Zavodning istalgan joyidan ishlab chiqarish ma'lumotlariga kirish imkoniyati",
+    "reducing": "Ma'lumot qidirish va tahlil qilishga ketadigan vaqtni qisqartirish",
+    "decision": "Qaror qabul qilish samaradorligi",
+    "btn": "Loyiha taqdimoti"
+  },
+
+  "exoskeletons": {
+    "title": "Ekzoskeletlar",
+    "topTitle": "Mijozning talablari",
+    "prompt": "Menejerlarning ishlab chiqarish haqidagi ma'lumotlarga tezkor kirishi",
+    "application": "Menejerlarni unda ishlashga undaydigan (motivatsiya beradigan) ilova",
+    "intuitive": "Tushunarli va qulay (intuitiv) interfeys",
+    "midTitle": "Bizning yechimimiz",
+    "mobileApp": "Ishlab chiqarish rahbarlari uchun mobil ilova",
+    "downTitle": "Joriy etilgandan keyingi natija",
+    "access": "Zavodning istalgan joyidan ishlab chiqarish ma'lumotlariga kirish imkoniyati",
+    "reducing": "Ma'lumot qidirish va tahlil qilishga ketadigan vaqtni qisqartirish",
+    "decision": "Qaror qabul qilish samaradorligi",
+    "btn": "Loyiha taqdimoti"
+  },
+
+  "personal": {
+    "title": "Shaxsiy ma'lumotlar siyosati"
+  }
+}

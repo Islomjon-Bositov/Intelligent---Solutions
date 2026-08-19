@@ -1,6 +1,7 @@
 .services {
   width: 100%;
   height: 2292px;
+  height: auto;
   background-color: #1773ba;
   padding: 150px 0;
 }
@@ -100,6 +101,10 @@
   color: #363636;
 }
 
+.expertise_in_IT h3 {
+  margin-bottom: 30px;
+}
+
 .expertise {
   width: 100%;
   height: 599px;
@@ -120,4 +125,95 @@
   justify-content: space-between;
   padding: 40px 43px 40px 66px;
   border-radius: 10px;
+}
+
+.management_competence h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #363636;
+}
+
+@media(max-width: 768px){
+
+  .services_container {
+    height: auto;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .services_container h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .industry {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .industry img {
+    width: 100%;
+  }
+
+  .industry_competence {
+    width: 100%;
+    height: 300px;
+  }
+
+  .industry_competence_info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+  }
+
+  .expertise {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction:column-reverse;
+    gap: 15px;
+    height: auto;
+  }
+
+  .expertise img {
+    width: 100%;
+  }
+
+  .expertise_in_IT_info {
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .management {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 15px;
+  }
+
+  .management_competence_info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow-x: auto;
+  }
+
+  .management img {
+   width: 100%;
+  }
 }

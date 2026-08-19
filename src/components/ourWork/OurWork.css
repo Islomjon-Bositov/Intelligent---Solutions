@@ -85,6 +85,10 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
+  }
+
+  .our_work_box {
+    width: 100%;
   }
 }

@@ -1,0 +1,170 @@
+{
+  "notFound": {
+    "title": "Not Found",
+    "desc": "Please, try again"
+  },
+  "navbar": {
+    "about": "About us",
+    "services": "Services",
+    "cases": "Cases",
+    "contactUs": "Contact us"
+  },
+
+  "banner": {
+    "topTitle": "Professional IT products and services",
+    "title": "Trust us and reduce your expenditures on business-processes ",
+    "downTitle": "We implement IT systems and help to get an additional effect in production",
+    "bannerBtn": "Discuss a project",
+    "modal": {
+      "title": "Something Wrong!"
+    }
+  },
+
+  "whyUs": {
+    "title": "Why us?",
+    "flexible": {
+      "title": "Flexible approach",
+      "desc": "We adapt to the needs of the customer, trying to solve his current problems, and not formally perform work according to the brief"
+    },
+    "team": {
+      "title": "Team of professionals",
+      "desc": "In the field of project management, support and expertise in various areas"
+    },
+    "bigProject": {
+      "title": "Big project experience",
+      "desc": "More than 50 major projects are implemented in various fields and industries"
+    },
+    "latest": {
+      "title": "Latest technology",
+      "desc": "We use modern Industry 4.0 technologies and new platforms to reduce product development time"
+    }
+  },
+
+  "ourWork": {
+    "title": "The examples of our work",
+    "mobile": {
+      "title": "Mobile application ",
+      "link": "See the case"
+    },
+    "digital": {
+      "title": "Digital conveyor",
+      "link": "See the case"
+    },
+    "exoskeletons": {
+      "title": "Exoskeletons",
+      "link": "See the case"
+    }
+  },
+
+  "outClient": "Our clients",
+
+  "yourProject": {
+    "title": "We're ready to discuss your project",
+    "desc": "Leave your request for a consultation and get an answer soon ",
+    "form": {
+      "name": "Name:",
+      "phone": "Phone:",
+      "email": "Email:"
+    },
+    "formIn": {
+      "name": "Name *",
+      "phone": "Phone number *",
+      "email": "E-mail *",
+      "btn": "Send",
+      "desc": "By clicking the button, you automatically agree to Privacy Policy."
+    }
+  },
+
+  "footer": {
+    "title": "© 2021. All rights reserved "
+  },
+
+  "services": {
+    "title": "Our team has competencies in various fields",
+    "industry": {
+      "title": "Industry competence and expertise in business processes",
+      "controlling": "Controlling",
+      "treasury": "Treasury",
+      "document": "Document management",
+      "mining": "Mining metallurgy",
+      "audit": "Audit Management",
+      "accounting": "Accounting and tax accounting",
+      "retail": "Retail and e-commerce",
+      "oil": "Oil production and refining",
+      "procurement": "Procurement and inventory management",
+      "sales": "Sales and customer relations",
+      "repair": "Repair and production management",
+      "risk": "Risk management and control procedures"
+    },
+
+    "expertise": {
+      "title": "Expertise in IT technologies",
+      "vr": "VR / AR",
+      "chat": "Chat bots",
+      "machine": "Machine vision",
+      "autonomous": "Autonomous drones",
+      "digital": "Digital doubles",
+      "mobile": "Mobile solutions",
+      "pra": "RPA Software Robots",
+      "dashboards": "Dashboards and reporting systems",
+      "exoskeletons": "Exoskeletons and industrial robots",
+      "systems": "Systems for predictive repair and optimization of equipment operation modes"
+    },
+
+    "management": {
+      "title": "Management competencies",
+      "it": "IT function reorganization",
+      "digital": "Digital programs and solutions creation",
+      "launch": "Launch and management of IT programs and projects"
+    }
+  },
+
+  "application": {
+    "title": "Mobile Application",
+    "topTitle": "Customer requirements",
+    "prompt": "Prompt access of managers to information about production",
+    "application": "Application that motivates managers to work in it",
+    "intuitive": "Intuitive interface",
+    "midTitle": "Our solution",
+    "mobileApp": "Mobile app for production managers",
+    "downTitle": "The result after implementation",
+    "access": "Access to production information from anywhere in the factory",
+    "reducing": "Reducing the time spent on searching and analyzing information",
+    "decision": "Decision-making efficiency",
+    "btn": "Project presentation"
+  },
+
+  "digital": {
+    "title": "Digital conveyor",
+    "topTitle": "Customer requirements",
+    "prompt": "To reduce the cost of conveyor repairment",
+    "application": "Determine the amount and moisture content of ore",
+    "intuitive": "Identify cuts on the conveyor belt in time",
+    "midTitle": "Our solution",
+    "mobileApp": "Mobile app for production managers",
+    "downTitle": "The result after implementation",
+    "access": "Access to production information from anywhere in the factory",
+    "reducing": "Reducing the time spent on searching and analyzing information",
+    "decision": "Decision-making efficiency",
+    "btn": "Project presentation"
+  },
+
+  "exoskeletons": {
+    "title": "Mobile Application",
+    "topTitle": "Customer requirements",
+    "prompt": "Prompt access of managers to information about production",
+    "application": "Application that motivates managers to work in it",
+    "intuitive": "Intuitive interface",
+    "midTitle": "Our solution",
+    "mobileApp": "Mobile app for production managers",
+    "downTitle": "The result after implementation",
+    "access": "Access to production information from anywhere in the factory",
+    "reducing": "Reducing the time spent on searching and analyzing information",
+    "decision": "Decision-making efficiency",
+    "btn": "Project presentation"
+  },
+
+  "personal": {
+    "title": "Personal Data Policy"
+  }
+}

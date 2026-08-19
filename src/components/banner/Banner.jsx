@@ -2,8 +2,10 @@ import "./Banner.css";
 import bannerImg from "../../assets/Group 1147.png";
 import { useState } from "react";
 import { GrFormClose } from "react-icons/gr";
+import { useTranslation } from "react-i18next";
 
 const Banner = () => {
+  const { t, i18n } = useTranslation();
   const [modal, setModal] = useState(false);
 
   if (modal) {
@@ -16,22 +18,21 @@ const Banner = () => {
     <div className="banner">
       <section className="banner_container">
         <div className="trust_us">
-          <p className="sub_title">Professional IT products and services</p>
+          <p className="sub_title">{t('banner.topTitle')}</p>
           <h2 className="banner_title">
-            Trust us and reduce your expenditures on business-processes{" "}
+            {t('banner.title')}
           </h2>
           <p className="banner_desc">
-            We implement IT systems and help to get an additional effect in
-            production
+            {t('banner.downTitle')}
           </p>
-          <button onClick={() => setModal(true)}>Discuss a project</button>
+          <button onClick={() => setModal(true)}>{t('banner.bannerBtn')}</button>
         </div>
         <img src={bannerImg} alt={bannerImg} />
         {modal && (
           <div className="modal">
             <div className="modal_wrapper">
               <div className="modal_head">
-                <h2>Something Wrong!</h2>
+                <h2>{t('banner.modal.title')}</h2>
                 <button onClick={() => setModal(false)}>
                   <GrFormClose />
                 </button>

@@ -1,8 +1,16 @@
 import "./Navbar.css";
 import logo from "../../assets/Group 1144.png";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
+const language = [
+  { code: "uz", label: "Uzb" },
+  { code: "en", label: "Eng" },
+  { code: "ru", label: "Rus" },
+];
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
   return (
     <div className="header">
       <header className="header_container">
@@ -15,22 +23,31 @@ const Navbar = () => {
           <nav>
             <ul>
               <li>
-                <Link to={"/"}>About Us</Link>
+                <Link to={"/"}>{t("navbar.about")}</Link>
               </li>
               <li>
-                <Link to={"services"}>Services</Link>
+                <Link to={"services"}>{t("navbar.services")}</Link>
               </li>
               <li>
-                <Link to={"cases"}>Cases</Link>
+                <Link to={"cases"}>{t("navbar.cases")}</Link>
               </li>
             </ul>
           </nav>
-          <select name="language">
-            <option value="eng">Eng</option>
-            <option value="ru">Ru</option>
+          <select
+            value={i18n.language}
+            onChange={(e) => i18n.changeLanguage(e.target.value)}
+            name="language"
+          >
+            {language.map((item) => {
+              return (
+                <option key={item.code} value={item.code}>
+                  {item.label}
+                </option>
+              );
+            })}
           </select>
           <Link className="contact_us_link" to={`contact-us`}>
-            Contact Us
+            {t("navbar.contactUs")}
           </Link>
         </div>
       </header>

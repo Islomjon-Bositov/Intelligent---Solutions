@@ -2,8 +2,8 @@
   width: 100%;
   height: 56px;
   margin: 22px 0;
-  background-color: transparent;
 }
+
 
 .header_container {
   max-width: 1000px;
@@ -60,6 +60,9 @@
 }
 
 @media(max-width: 1024px){
+  .header_container {
+    gap: 100px;
+  }
   .header {
     position: sticky;
     top: 20px ;

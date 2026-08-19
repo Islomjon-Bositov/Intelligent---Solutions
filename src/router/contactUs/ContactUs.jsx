@@ -1,11 +1,13 @@
 import "./ContactUs.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const ContactUs = () => {
+  const { t, i18n } = useTranslation();
   return (
     <div className="contact_us">
       <section className="contact_us_container">
-        <h2>Personal Data Policy</h2>
+        <h2>{t("personal.title")}</h2>
         <div className="main_desc">
           <p>
             1. General provisions
@@ -32,11 +34,11 @@ const ContactUs = () => {
             2. Basic concepts used in the Policy
             <br />
             <br />
-            2.1. Automated processing of personal data – personal data
+            2.1. Automated processing of personal data - personal data
             processing using computer technology; 2.2. Blocking of personal data
-            – temporary termination of the personal data processing (except in
+            - temporary termination of the personal data processing (except in
             cases where the processing is necessary to clarify personal data);
-            <br /> 2.3. Website – a set of graphic and informational materials,
+            <br /> 2.3. Website - a set of graphic and informational materials,
             as well as computer programs and databases that ensure their
             availability on the Internet at the network address
             <Link to={`/`}> https://en.i-sol.ru</Link> ; <br /> 2.4. Personal
@@ -50,7 +52,7 @@ const ContactUs = () => {
             User or other personal data subject without using additional
             information;
             <br />
-            2.6. Processing of personal data – any action (operation) or a set
+            2.6. Processing of personal data - any action (operation) or a set
             of actions (operations) performed with or without the use of
             automation tools with personal data, including collection,
             recording, systematization, accumulation, storage, clarification
@@ -58,24 +60,24 @@ const ContactUs = () => {
             provision, access), depersonalization, blocking, deletion,
             destruction of personal data;
             <br />
-            2.7. Operator – a state body, municipal body, legal entity or
+            2.7. Operator - a state body, municipal body, legal entity or
             individual that independently or jointly with other persons
             organizes and / or performs the processing of personal data, as well
             as determines the purposes of processing personal data, the
             composition of personal data to be processed, actions (operations)
             performed with personal data;
             <br />
-            2.8. Personal data – any information related directly or indirectly
+            2.8. Personal data - any information related directly or indirectly
             to a specific or identifiable User of the{" "}
             <Link to={`/`}>https://en.i-sol.ru</Link>
-            website; 2.9. User – any visitor to the website{" "}
+            website; 2.9. User - any visitor to the website{" "}
             <Link to={`/`}>https://en.i-sol.ru</Link>
             ;
             <br />
-            2.10. Provision of personal data – actions aimed at disclosing
+            2.10. Provision of personal data - actions aimed at disclosing
             personal data to a certain person or a certain group of persons;
             <br />
-            2.11. Dissemination of personal data – any actions aimed at
+            2.11. Dissemination of personal data - any actions aimed at
             disclosure of personal data to an indefinite circle of persons
             (transfer of personal data) or at familiarization with the personal
             data of an unlimited circle of persons, including the publication of
@@ -83,11 +85,11 @@ const ContactUs = () => {
             telecommunications networks or providing access to personal data in
             any other way;
             <br />
-            2.12. Cross-border transfer of personal data – transfer of personal
+            2.12. Cross-border transfer of personal data - transfer of personal
             data to the territory of a foreign state to the authority of a
             foreign state, a foreign individual, or a foreign legal entity;
             <br />
-            2.13. Destruction of personal data – any actions as a result of
+            2.13. Destruction of personal data - any actions as a result of
             which personal data is permanently destroyed with the impossibility
             of further restoration of the content of personal data in the
             personal data information system and (or) the material carriers of
@@ -125,7 +127,7 @@ const ContactUs = () => {
             special offers".
             <br />
             4.3. Depersonalized User data collected through Internet statistics
-            services is used to collect information about User’s actions on the
+            services is used to collect information about User's actions on the
             site, improve the quality of the site and its content.
             <br />
             <br />
